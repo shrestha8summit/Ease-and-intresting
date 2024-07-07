@@ -1,0 +1,52 @@
+html
+{
+    text-align: center;
+    margin-top: 8%;
+}
+
+body
+{
+    background-image: url('https://img.freepik.com/free-vector/realistic-casino-gambling-illustration_52683-99917.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#container
+{
+    border: 6px red double;
+    padding: 5%;
+    border-radius: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+    /* background-color: linear-gradient(135deg,rgb(55,65,77),rgb(88,99,100) ); */
+    backdrop-filter: blur(7px);
+    /* -webkit-backdrop-filter: blur(5px); */
+}
+
+#name
+{
+    background: linear-gradient(green,black,darkgreen);
+    color: transparent;
+    background-clip:text;
+}
+
+p{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+button
+{
+    height: 35px;
+    width:22.5%;
+    border-radius: 25px; 
+   margin-bottom: 2%;
+   font-family: cursive;
+   /* text-transform: uppercase; */
+   font-size: 20px;
+   color: #016f32;
+   background: goldenrod;
+}

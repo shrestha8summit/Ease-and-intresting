@@ -1,0 +1,17 @@
+import pyautogui as auto
+
+auto.hotkey("win","i")
+auto.sleep(5)
+auto.typewrite("Change the date and time")
+auto.sleep(5)
+auto.press("enter")
+auto.sleep(5)
+auto.press("enter")
+auto.sleep(5)
+auto.press("tab")
+auto.press("tab")
+auto.press("space")
+auto.sleep(5)
+auto.press("space")
+auto.sleep(2)
+auto.hotkey("alt","f4")
